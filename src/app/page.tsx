@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -31,8 +29,8 @@ export default function Home() {
 
           {/* Tools Grid */}
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <Link
-              href="/audit"
+            <a
+              href="https://cafy-audit-app.vercel.app/audit"
               className="group rounded-xl border border-cafy-border bg-cafy-card p-6 transition-all hover:border-cafy-cyan/50 hover:bg-cafy-card/80"
             >
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-cafy-cyan/10">
@@ -52,7 +50,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
               </span>
-            </Link>
+            </a>
 
             {/* Placeholder cards for future tools */}
             <div className="rounded-xl border border-cafy-border/50 bg-cafy-card/30 p-6 opacity-50">
