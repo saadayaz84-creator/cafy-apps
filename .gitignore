@@ -35,3 +35,7 @@ yarn-error.log*
 
 # MCP config (contains API keys)
 .mcp.json
+
+# Debug/utility scripts (not part of the app)
+scripts/
+exec*.json
